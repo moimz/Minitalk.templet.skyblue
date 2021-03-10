@@ -6,8 +6,8 @@
  * @file /templets/skyblue/style.css
  * @author Arzz (arzz@arzz.com)
  * @license MIT License
- * @version 1.0.0
- * @modified 2021. 1. 24.
+ * @version 1.0.1
+ * @modified 2021. 3. 10.
  */
 div[data-role=frame] {border:1px solid #9abce6; background:#fff; font-size:12px;}
 
@@ -287,6 +287,9 @@ div[data-role=frame] > main > section[data-role=users] > ul > li > label[data-ro
 div[data-role=frame] > main > section[data-role=users] > ul > li > label[data-role=user]:hover {background:#f4f4f4;}
 div[data-role=frame] > main > section[data-role=users] > ul > li > label[data-role=user] > i[data-role=photo] {display:block; width:34px; height:34px; float:left; margin-right:6px; background-image:url(./images/nophoto.png); background-repeat:no-repeat; background-size:cover; background-position:50% 50%; border-radius:50%; box-sizing:border-box; border:1px solid #eee;}
 div[data-role=frame] > main > section[data-role=users] > ul > li > label[data-role=user] > span[data-role=nickname] {display:inline-block; font-weight:bold; font-size:12px; max-width:calc(100% - 40px); height:20px; line-height:20px; margin:7px 0px; color:#222; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+div[data-role=frame] > main > section[data-role=users] > ul > li > button[data-action=invite] {display:block; width:calc(100% - 10px); height:30px; margin:5px; border:1px solid #e5e5e5; color:#666; background:#f4f4f4; cursor:pointer; font-size:12px;}
+div[data-role=frame] > main > section[data-role=users] > ul > li > button[data-action=invite] > i {width:20px; height:28px; display:inline-block; vertical-align:middle; font-family:moimz; line-height:28px; font-style:normal; text-align:center;}
+div[data-role=frame] > main > section[data-role=users] > ul > li > button[data-action=invite] > i:before {content:"\eb00";}
 
 /**
  * 유저섹션 가로/세로 형태에 따른 위치조절
