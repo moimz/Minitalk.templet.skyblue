@@ -6,8 +6,8 @@
  * @file /templets/skyblue/style.css
  * @author Arzz (arzz@arzz.com)
  * @license MIT License
- * @version 1.0.1
- * @modified 2021. 3. 10.
+ * @version 1.1.0
+ * @modified 2021. 4. 15.
  */
 div[data-role=frame] {border:1px solid #9abce6; background:#fff; font-size:12px;}
 
@@ -216,7 +216,6 @@ div[data-role=frame] > main > section[data-role=chat] > div[data-role=item].syst
 div[data-role=frame] > main > section[data-role=chat] > div[data-role=message] {margin:5px;}
 div[data-role=frame] > main > section[data-role=chat] > div[data-role=message]:after {clear:both; content:""; display:block;}
 div[data-role=frame] > main > section[data-role=chat] > div[data-role=message].whisper {color:#ff00ff;}
-div[data-role=frame] > main > section[data-role=chat] > div[data-role=message].log {opacity:0.5;}
 div[data-role=frame] > main > section[data-role=chat] > div[data-role=message] > div[data-role=context] {float:left; width:calc(100% - 50px); box-sizing:border-box;}
 div[data-role=frame] > main > section[data-role=chat] > div[data-role=message] > div[data-role=context] > div > div[data-role=balloon] {margin:0px; font-size:12px; color:#222; line-height:1.6;}
 div[data-role=frame] > main > section[data-role=chat] > div[data-role=message] > div[data-role=context] > div > div[data-role=balloon] > span.text > a {text-decoration:none; color:#2196F3;}
